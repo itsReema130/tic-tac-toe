@@ -12,16 +12,14 @@ export default function Board(props) {
             props.onClick(0);
           }}
         />
-      </div>
-      <div>
+
         <Square
           value={props.squares[1]}
           onClick={() => {
             props.onClick(1);
           }}
         />
-      </div>
-      <div>
+
         <Square
           value={props.squares[2]}
           onClick={() => {
@@ -37,16 +35,14 @@ export default function Board(props) {
             props.onClick(3);
           }}
         />
-      </div>
-      <div>
+
         <Square
           value={props.squares[4]}
           onClick={() => {
             props.onClick(4);
           }}
         />
-      </div>
-      <div>
+
         <Square
           value={props.squares[5]}
           onClick={() => {
@@ -62,16 +58,14 @@ export default function Board(props) {
             props.onClick(6);
           }}
         />
-      </div>
-      <div>
+
         <Square
           value={props.squares[7]}
           onClick={() => {
             props.onClick(7);
           }}
         />
-      </div>
-      <div>
+
         <Square
           value={props.squares[8]}
           onClick={() => {
